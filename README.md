@@ -15,16 +15,14 @@ An informal daily journal with coding activities, research, meetings, musings an
 May 28<br>
 I can't believe today was my last day as an occupational therapist providing direct care! I am so excited to start learning full time and commit 100%. This morning I'm finally getting my dev stuff organized with a plan of attack. I will be restarting #100daysofcode on Monday for a fresh commitment to code at least a little every day. This is the first Saturday in actual years I haven't spent my morning catching up on therapy notes.
 
-### Day 1/100
-May 31<br>
+### May 31<br>
 * 2 hours of figuring out how to build my portfolio using Hugo<br>
 * 2.5 hours of javascript review<br>
 * 1 coffee chat w/ a developer  <Br>
 * 1 codewars question 
 * 1 reward of vegan pho when done
 
-### Day 2/100 
-Jun 1<br>
+### Jun 1<br>
 * 2 hours #100devs Javascript review and exercises<br>
 * 1 hour of trying to figure out Hugo to build a static portfolio site<br>
 * 1 codewar question <br>
@@ -32,32 +30,30 @@ Jun 1<br>
 * 1 hr advice + coding roadmap review from my SWE cousin after he's done working :)
 
 
-### Day 3/100
-Jun 2<br>
+### Jun 2<br>
 * 2 hours of the 8-hour #100devs javascript review and exercises before my flight <br>
 That's all for today as I am flying back from Atlanta to DC to get to my home office where my streaming gear is waiting for me to play around with yayyyyy
 
-### Day 4/100
-Jun 5<br>
+### Jun 5<br>
 * JavaScript review covering basic functions and methods - a lot of me shaking my fist at my screen trying to use my terminal correctly while setting up my portfolio 
 * A lovely meeting with @ SchipThatCode going over twitch and streamlabs tips
 
 
-### Day 5/100
+### June 6
 * Easy codewars problem, had to google to figure it out but was able to at least write the pseudo codes before looking it up. <br>
 * Finally finished editing a YouTube video on repetitive stress injury prevention for computer users
 
-### Day 6/100
+### June 7
 * Did 2 hours of tutoring going over using the terminal, pushing to GitHub + Netlify - setup mic, camera + dl programs to figure out streaming for this week<br>
  * Reviewing object-oriented programming concepts
 
-### Day 7/100
+### June 8
 Jun 8<br>
 * An enlightening and motivating coffee chat w/ @ artsycoder533 
 * Practiced pushing code from local to GitHub using terminal 
 * Worked a little on my portfolio trying to use Hugo to build it (had a hard time making it work and synch with Netlify )
 
-### Day 8/100 
+### June 9
 * Long info-packed coffee chat w @ jalonen_lauri (helped me w my frustrations w/ the terminal + Github ) 
 * #100devs class on making CRUD apps 
 * Setup streamlabs for twitch streaming, created twitch transition + branded backgrounds using canva
@@ -66,64 +62,63 @@ Jun 8<br>
 * Shot +edited my first tech Youtube video! 
 * Attended @ lesbiantech conference + job fair
 
-### Day 9/100
+### June 10
 * Finished editing +uploaded 2 vids to YT channel [why I left healthcare for tech](https://www.youtube.com/watch?v=IwyyKlABpTE) + [chair yoga for tech workers](https://www.youtube.com/watch?v=LoYgPYvEZhI&t=126s) 
 * Learned a ton about CRUD + pieces needed for full stack apps incl express etc 
 * Last #100devs class before our two week summer break (time to catch up!)
 
-### Day 10/100
+### June 11
 Jun 13<br>
 * Attended last day of @ lesbiantech, got to connect w some really cool indvs in tech as well as recruiters at a few companies I’m super interested in 
 * Dug up some training I did earlier this year on using virtual + augmented reality in healthcare
 
-### Day 11/100 
+### June 12
  A chill day <br>
 * Moved slowly through some OOP material 
 * Watched a few videos on using Blender (it seems so complicated w/ a lot of steps to make simple things but I really wanna play w it) 
 * Casually watched an AR unity tutorial
 
-### Day 12/100 
+### June 13
 * Shot a 10min YT video [What Is Assistive Technology](https://www.youtube.com/watch?v=S-npp6P6eMM&t=21s) 
 * Started fleshing out a blog post on assistive technology +why developers should be aware of it 
 * Put tailwind on my todo list - Hugo + terminal shenanigans
 
-### Day 13/100 
+### June 14
 * Messed around with making old code cleaner by making objects 
 * @ jalonen_lauri was kind enough to hop on discord and show me some stuff code on GitHub w/ real examples of OOP 
 * Went to a wedding so didn't code more than a couple of hrs
 
-### Day 14/100
+### June 15
 Jun 17<br>
 * Finished up my studies w OOP 
 * Coffee chat w @ metalandcoffee_ 
 * Realized live streaming is prob not in the cards for me right now but reinvigorated my desire to vlog + blog about my projects 
 * Worked a little bit on unscrambling old code to make objects again
 
-### Day 15/100 
+### June 16
 * Coffee chat w @ mrxinu, struck by how kind and cool they are 
 * Chat w/ @ ThatAdrienne a former school psych, now a dev, very cathartic + inspiring conversation about therapist burnout and how therapists make excellent developers
 * No coding today, hand pain
 
-### Day 16/100
-Jun 20<br>
+### Jun 20<br>
 * Worked on a short article on why semantic HTML matters and its importance to assistive technology users 
 * Did some design work for an ebook - watched more ideas on OOP 
 * It was Saturday, I gave myself permission to rest a little
 
 
-### Day 17/100 
+### June 21
 * Finished designing ebook 
 * Finished a blog post on semantic HTML
 * Finally understand the four pillars of OOP and can explain
 * Tried and failed to push code to GitHub for a few hours using terminal, will be getting help on this today
 
-### Day 18/100 
+### June 22
 Today I will<br>
 * Finish my portfolio site if it’s the death of me
 * Practice pushing local files to GitHub using terminal 
 * Finally convert all the video files of my yoga poses to gifs for the stretch break generator I’m building
 
-### Journal Entry June 23
+### June 23
 * Today got together with my study group  
 * Finally understood what an object constructor was
 It is a constructor that takes in multiple objects and gives them all the same properties and methods
@@ -133,36 +128,34 @@ What is a class and how does it help with constructor objects?
 <b>Wins</b>
 Made a constructor that worked making my own TV shows with show name, genre, cast list, episode number
 
-### Day 14-18
-Jun 28<br>
+### Jun 28<br>
 summary <br>
 * Had really lovely coffee chats w @ metalandcoffee_ @ mrxinu @ ThatAdrienne they gave me so much insight on their experiences as SWE and many good tips 
 * Worked every day on learning OOP and asynchronous programming 
 *Got way comfier using GitHub
 
-### Day 19-21
-Jun 28<br>
+### Jun 28<br>
 Summary <br>
 * Awesome chat w @ hot_girl_spring, lots of fun hearing about her disdain for JavaScript LOL
 * Started studying APIs 
 * Worked on my portfolio still struggling using Hugo 
 * Fun chat w @ ReedCodes about the wonders of CSS stylesheet templates
 
-### Day 22-24 
+### June 29
 * Discovered the wonders of a silent virtual study session for working on #100devs API hw + studied for 3+ hrs w my fellow code baddies
 * FINALLY USED AN API AND GOT IT TO WORK 
 
-### Day 25-26 
+### July 1
 * Catching up on hw including a very long build of a simple full-stack app via watching @ mayanwolfe’s 6hr vod, she is so fun to watch!
 * Silent study sessions with my code baddies to tackle more API stuff
 
-### Day 27  
+### July 2 
 * 3 hr silent code & study
 * Connected MongoDB to my local server and learned a little about databases
 * Messed around w terminal and Github using vscode
 * Uploaded 2 yoga for computer users videos on YT
 
-### June 29 
+### July 3
 <b>Journal Entry</b><br>
 Today I learned:
 * MongoDB is used to store data put into a form into a cloud, very cool, put in quotes and MongoDB will put it in its database
@@ -206,10 +199,6 @@ https://www.twitch.tv/videos/1315269230
 - Worked on building a server using express, then putting card flip up through node and on local server
 - Worked on github merges, pulls, working with another person on github
 - Learned how to force kill a server using command lsof -i tcp:, to find the number key and kill -9 to kill server
-
-
-
-- 
 
 ### July 21st
 - Worked on portfolio and blog
