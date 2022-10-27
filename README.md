@@ -5,7 +5,7 @@ An informal daily journal with coding activities, research, meetings, musings an
 
 <b>Part 2</b> of this series which details the middle 3-4 months can be found [here](https://codingtherapy.hashnode.dev/my-first-6-months-of-learning-web-development-part-2)
 
-![Photo of author smile with the caption: Why I Decided to Leave the Therapy Field for a Career in Tech ](https://cdn.hashnode.com/res/hashnode/image/upload/v1660058657459/_ZggJMxvu.png)
+![Photo of author smile with the caption: learnign and buiklding using the MERN STACK Daily coding journal](https://res.cloudinary.com/dtamwfybo/image/upload/v1666889879/Why_I_left_Healthcare_21_vvigwd.png)
 
 <b>Note</b>: This blog post will also contain excerpts from my personal code journal which I started using with more frequency around June of 2022. These excerpts were not originally meant for public consumption and may have grammar errors. I want to preserve the entrees for what they were rather than edit them to perfection.
 
@@ -204,7 +204,6 @@ https://www.twitch.tv/videos/1315269230
 - Worked on portfolio and blog
 - Figured out portfolio tag on blog site, it is its own page that i am adding in my sites
 - Need to finish projects (simplify stretch app and just add working timer, on back end you can add how many stretch breaks you took maybe as a daily counter!
-
 - Meetings: mail chimp engineer 430pm
 - Good idea to focus only on backend and API stuff to showcase that i know it and do minimal front end stuff
 - Work on making yoga pose API, need to host pictures somewhere and make a database then figure out functions
