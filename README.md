@@ -46,15 +46,14 @@ The word "Baddies" should <b>return</b> "(())((("
 <b> Solution:</b><br>
 
 `function duplicateEncode(word)` <br>
-   `return word` 
-     `.toLowerCase()` 
-     .split('') <br>
-     .map( function (a, i, w) { <br>
-       return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')' <br>
-     }) <br>
-     .join(''); <br>
- }
-`
+   `return word` <br>
+     `.toLowerCase()` <br> 
+     `.split('')` <br>
+     `.map( function (a, i, w) {` <br>
+       `return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'` <br>
+     `})` <br>
+     `.join('');` <br>
+ `}`
 ### October 26
 Yesterday I went to a HackerX Tech conference and met a few software engineers and was able to talk with 6 companies hiring for Software Engineers. Most of the companies wanted engineers who were well versed in React and NodeJS which was good. Three of the companies were looking for engineers with a good amount of experience.  One of the companies I’ve been interested in were there and we were able to exchange information which was nice. Meeting other engineers and talking with them about their experience was great.<br><br>
 
