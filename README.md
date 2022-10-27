@@ -9,9 +9,9 @@ An informal daily journal with coding activities, research, meetings, musings an
 
 This repo starts on May 28, 2022. If you'd like to read excerpts from earlier check out:
 
-- [ <b>Part 1</b> of this series which details my first 2 months of learning how to code](https://codingtherapy.hashnode.dev/what-i-learned-learning-how-to-code)
+- [ <b>Part 1</b> of this series which details the first 2 months of learning how to code](https://www.africakenyah.com/learning-to-code-part-1/)
 
-- [ <b>Part 2</b> of this series which details the middle 3-4 months](https://codingtherapy.hashnode.dev/my-first-6-months-of-learning-web-development-part-2)
+- [ <b>Part 2</b> of this series which details the middle 3-4 months](https://www.africakenyah.com/learning-to-code-part-2/)
 
 ## Building in Public 
 ### Oct 27
@@ -93,7 +93,21 @@ What do you want an entry level person to know well?
 	- Add
 
 
+### August 27- October 20th
+During the past month my journals notes were pretty sporadic. They were mostly filled with references to things regarding data bases, MVC and things I needed to look up for my 100 hour full stack project. It was also and filled with personal information from meeting with different engineers and recruiters I met at virtual tech conferences. <br>
+Most of my time was spent finishing up my passion project https://www.yourstretchbreak.com
+  - A 5-minute stretch break web application for developers and computer users.   
+    -  Built with <b>HMTL, CSS, Javascript, Nodejs and MongoDB</b>.
+    - Includes of 40 stretches to try at your desk
+    - An API to retrieve yoga poses based on body parts from a mongodb database with photo hosting from Cloudinary will be added to optimize project.<br>
+    - [Github Repo](https://github.com/codingtherapist/myStretchApp)
 
+I'm pretty proud of my wireframe, and it helped me flesh out this project to working application<br>
+ ![screenshot of my stretch break app](https://user-images.githubusercontent.com/96845068/193476091-a9e68a0f-52ae-42dd-a61c-8c35fb0be827.gif)<br>
+
+![display of homepage in mobile view with html vscode open next to it](https://res.cloudinary.com/dtamwfybo/image/upload/v1665518366/wire1_cmlcju.png)
+
+![display of homepage in mobile view with html vscode open next to it](https://res.cloudinary.com/dtamwfybo/image/upload/v1665518366/wire2_swux3k.png)
 
 ### May 28<br>
 Note: Entries go in ascending order from this point until August 24<br><br>
