@@ -26,18 +26,18 @@ Today I did the daily standup of codewars with my study group as usual, but with
 
 <i>Parameters</i>:<br>
 
-We worked a on a problem that required us to take in a string (we chose the word "Baddie") and return a string of “(“ or “)” representing the characters that did not repeat [represented by “(“] or did repeat [represented by “(“].
-- The string we would be searching for duplicates could be represented by letters (upper case and lower case), numbers or special characters.
+We worked a on a problem that required us to take in a string (we chose the word "Baddies") and return a string of “(“ or “)” representing the characters that did not repeat [represented by “(“] or did repeat [represented by “(“].
+- The string we would be searching for duplicates could be represented by letters (upper case and lower case), numbers, empty spaces or special characters.
 <br><br>
 
 <i>Example:</i>
 
-The word "Baddie" should <b>return</b> "(())(("
-<br>
+The word "Baddies" should <b>return</b> "(())((("
+<br><br>
 ` console.log(duplicateEncode(Baddies),"(())(((")`<br><br>
 <i> Rationale:</i>
 
-- To create a function that could break down the string “Baddie” and turn it into an array or letters, we used the <b>slice()</b> method. 
+- To create a function that could break down the string “Baddies” and put it into an array of letters, we used the <b>slice()</b> method. 
 - To make sure all of the letters were lowercase we used the method <b>toLowerCase()</b>. 
 - To check whether there were duplicates we used indexOf() to search the beginning of the arrays indexes for characters, and <b>lastIndexOf()</b> to check the end of the array. 
 - To place these methods on each letter of the array we created, we used <b>map()</b>.
