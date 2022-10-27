@@ -93,15 +93,17 @@ What do you want an entry level person to know well?
 	- Add
 
 
-### August 27- October 20th
+### August 25- October 20th
 During the past month my journals notes were pretty sporadic. They were mostly filled with references to things regarding data bases, MVC and things I needed to look up for my 100 hour full stack project. It was also and filled with personal information from meeting with different engineers and recruiters I met at virtual tech conferences. <br>
-Most of my time was spent finishing up my passion project https://www.yourstretchbreak.com<br>
+Most of my time was spent finishing up my passion project which is live at https://www.yourstretchbreak.com<br>
  ![screenshot of my stretch break app](https://user-images.githubusercontent.com/96845068/193476091-a9e68a0f-52ae-42dd-a61c-8c35fb0be827.gif)<br>
   - A 5-minute stretch break web application for developers and computer users.   
     -  Built with <b>HMTL, CSS, Javascript, Nodejs and MongoDB</b>.
-    - Includes of 40 stretches to try at your desk
+    - Includes a timer and 40 stretches to try at your desk
+    - Ability to upload your own stretches in your profile
     - An API to retrieve yoga poses based on body parts from a mongodb database with photo hosting from Cloudinary will be added to optimize project.<br>
     - [Github Repo](https://github.com/codingtherapist/myStretchApp)
+    - [Blog article about project](https://www.africakenyah.com/your-stretch-break/)
 
 I'm pretty proud of my wireframe, and it helped me flesh out this project to working application<br>
 
