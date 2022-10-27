@@ -45,7 +45,7 @@ The word "Baddies" should <b>return</b> "(())((("
 
 <b> Solution:</b><br>
 
-`function duplicateEncode(word)`
+`function duplicateEncode(word)` <br>
    `return word` 
      `.toLowerCase()` 
      .split('') <br>
