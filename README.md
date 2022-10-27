@@ -20,17 +20,31 @@ An informal daily journal with coding activities, research, meetings, musings an
 - NodeJS fundamentals review
 - Meeting with recruiter 3pm
 
-Today I did the daily standup of codewars with my study group as usual, but with a little more focus and energy. We worked a on a problem that required us to take in a string and return a string of “(“ or “)” representing the characters that did not repeat {represented by “(“} or did repeat {represented by “(“}.
-The string we would be searching for duplicates could be represented by letters (upper case and lower case), numbers or special characters.
- To create a function that could break down the string “Baddie” and turn it into an array or letters, we used the slice() method. To make sure all of the letters were lowercase we used the method toLowerCase(). To check whether there were duplicates we used indexOf() to search the beginning of the arrays indexes for characters, and lastIndexOf() to check the end of the array. We knew if any of the characters came back with different indexes for those two methods, that must mean the characters were repeating, as if there was only one character type the indexes of both methods would be the same.<br><br>
-`function duplicateEncode(word){
-   return word
-     .toLowerCase()
-     .split('')
-     .map( function (a, i, w) {
-       return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'
-     })
-     .join('');
+Today I did the daily standup of codewars with my study group as usual, but with a little more focus and energy. <br><br>
+<b>Coding problem:</b><br>
+<i>Parameters</i>:<br>
+We worked a on a problem that required us to take in a string (we chose the word "Baddie") and return a string of “(“ or “)” representing the characters that did not repeat [represented by “(“] or did repeat [represented by “(“].
+- The string we would be searching for duplicates could be represented by letters (upper case and lower case), numbers or special characters.
+<br><br>
+<i>Example:</i>
+The word "Baddie" should <b>return</b> "(())(("
+<br>
+` console.log(duplicateEncode(Baddies),"(())(((")`<br>
+<i> Rational:</i>
+- To create a function that could break down the string “Baddie” and turn it into an array or letters, we used the slice() method. 
+- To make sure all of the letters were lowercase we used the method toLowerCase(). 
+- To check whether there were duplicates we used indexOf() to search the beginning of the arrays indexes for characters, and lastIndexOf() to check the end of the array. 
+- To place these methods on each letter of the array we created, we used map().
+- We knew if any of the characters came back with different indexes for indexOf() or lastIndexOf(), that must mean the characters were repeating, as if there was only one character type the indexes of both methods would be the same.<br><br>
+<b> Solution:</b><br>
+`function duplicateEncode(word){<br>
+   return word<bR>
+     .toLowerCase()<br>
+     .split('')<br>
+     .map( function (a, i, w) {<br>
+       return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'<br>
+     })<br>
+     .join('');<br>
  }
 `
 ### October 26
