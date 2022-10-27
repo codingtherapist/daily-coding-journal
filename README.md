@@ -11,9 +11,68 @@ An informal daily journal with coding activities, research, meetings, musings an
 
 
 ## Building in Public 
+### Oct 27
+ 
+- 1 hour daily virtual standup completing 6kyu codewar Frontend Masters Data structures and algos course 1 hour
+- Javascript review 1 hour
+- Eloquent Javascript read 5 pages
+- Add blog entry on personal blog via vscode
+- NodeJS fundamentals review
+- Meeting with recruiter 3pm
 
-May 28<br>
-I can't believe today was my last day as an occupational therapist providing direct care! I am so excited to start learning full time and commit 100%. This morning I'm finally getting my dev stuff organized with a plan of attack. I will be restarting #100daysofcode on Monday for a fresh commitment to code at least a little every day. This is the first Saturday in actual years I haven't spent my morning catching up on therapy notes.
+Today I did the daily standup of codewars with my study group as usual, but with a little more focus and energy. We worked a on a problem that required us to take in a string and return a string of “(“ or “)” representing the characters that did not repeat {represented by “(“} or did repeat {represented by “(“}.
+The string we would be searching for duplicates could be represented by letters (upper case and lower case), numbers or special characters.
+ To create a function that could break down the string “Baddie” and turn it into an array or letters, we used the slice() method. To make sure all of the letters were lowercase we used the method toLowerCase(). To check whether there were duplicates we used indexOf() to search the beginning of the arrays indexes for characters, and lastIndexOf() to check the end of the array. We knew if any of the characters came back with different indexes for those two methods, that must mean the characters were repeating, as if there was only one character type the indexes of both methods would be the same.
+`function duplicateEncode(word){
+   return word
+     .toLowerCase()
+     .split('')
+     .map( function (a, i, w) {
+       return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'
+     })
+     .join('');
+ }
+`
+### October 26
+Yesterday I went to a HackerX Tech conference and met a few software engineers and was able to talk with 6 companies hiring for Software Engineers. Most of the companies wanted engineers who were well versed in React and NodeJS which was good. Three of the companies were looking for engineers with a good amount of experience.  One of the companies I’ve been interested in were there and we were able to exchange information which was nice. Meeting other engineers and talking with them about their experience was great.<br><br>
+
+Today:
+- Meeting with one of my mentors 2 hours covering interview questions he asks entry level software engineers. I’ll put a few of the things he says would be good to know below
+
+
+#### Interview questions
+What do you want an entry level person to know well?
+- Data structures
+- - Array Traversal 
+- - Find Nth Item 
+- - Removing item
+- - Shifting item
+
+- Linked list
+	- Iterating through a single list
+	- Next pointer
+	- Iterating through a doubly linked list
+	- Prev and next pointer
+		Add, remove, search 
+		O(n) 
+- Create stacks 
+- Create Queues
+- O(n) 
+- Adding
+- Removing
+- Searching
+- How can you create a stack from a queue and vice versa 
+
+- Stack 
+	- Pop
+	- Peek
+	- Add
+
+
+
+Note: Entries go in ascending order from this point until August 24
+### May 28<br>
+Can't believe today was my last day as an occupational therapist providing direct care! I am so excited to start learning full time and commit 100%. This morning I'm finally getting my dev stuff organized with a plan of attack. I will be restarting #100daysofcode on Monday for a fresh commitment to code at least a little every day. This is the first Saturday in actual years I haven't spent my morning catching up on therapy notes.
 
 ### May 31<br>
 * 2 hours of figuring out how to build my portfolio using Hugo<br>
