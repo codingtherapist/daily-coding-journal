@@ -92,8 +92,9 @@ What do you want an entry level person to know well?
 
 
 
-Note: Entries go in ascending order from this point until August 24
+
 ### May 28<br>
+Note: Entries go in ascending order from this point until August 24<br><br>
 Can't believe today was my last day as an occupational therapist providing direct care! I am so excited to start learning full time and commit 100%. This morning I'm finally getting my dev stuff organized with a plan of attack. I will be restarting #100daysofcode on Monday for a fresh commitment to code at least a little every day. This is the first Saturday in actual years I haven't spent my morning catching up on therapy notes.
 
 ### May 31<br>
