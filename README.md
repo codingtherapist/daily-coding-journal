@@ -469,7 +469,7 @@ Homework
 
 ## To be continued 
 (this journal lives on a google document that I add to daily, I will be uploading the daily posts little by little as I have time :) )
-- Africa 10/26/22
+
 
 
 
