@@ -19,7 +19,6 @@ This repo starts on May 28, 2022. If you'd like to read excerpts from earlier ch
 - 1 hour daily virtual standup completing 6kyu codewar 
 - Frontend Masters Data structures and algos course 1 hour
 - Javascript review 1 hour
-- Eloquent Javascript read 5 pages
 - Add blog entry on personal blog via vscode
 - NodeJS fundamentals review
 - Meeting with recruiter 3pm
