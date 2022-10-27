@@ -16,7 +16,8 @@ This repo starts on May 28, 2022. If you'd like to read excerpts from earlier ch
 ## Building in Public 
 ### Oct 27
  
-- 1 hour daily virtual standup completing 6kyu codewar Frontend Masters Data structures and algos course 1 hour
+- 1 hour daily virtual standup completing 6kyu codewar 
+- Frontend Masters Data structures and algos course 1 hour
 - Javascript review 1 hour
 - Eloquent Javascript read 5 pages
 - Add blog entry on personal blog via vscode
@@ -105,7 +106,8 @@ Most of my time was spent finishing up my passion project which is live at https
     - [Github Repo](https://github.com/codingtherapist/myStretchApp)
     - [Blog article about project](https://www.africakenyah.com/your-stretch-break/)
 
-I'm pretty proud of my wireframe, and it helped me flesh out this project to working application<br>
+I'm pretty proud of my wireframe, and it helped me flesh out this p
+roject to working application<br>
 
 
 ![display of homepage in mobile view with html vscode open next to it](https://res.cloudinary.com/dtamwfybo/image/upload/v1665518366/wire1_cmlcju.png)
