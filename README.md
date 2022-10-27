@@ -45,14 +45,14 @@ The word "Baddies" should <b>return</b> "(())((("
 
 <b> Solution:</b><br>
 
-`function duplicateEncode(word){<br>
-   return word<bR>
-     .toLowerCase()<br>
-     .split('')<br>
-     .map( function (a, i, w) {<br>
-       return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'<br>
-     })<br>
-     .join('');<br>
+`function duplicateEncode(word){ <br>
+   return word <bR>
+     .toLowerCase() <br>
+     .split('') <br>
+     .map( function (a, i, w) { <br>
+       return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')' <br>
+     }) <br>
+     .join(''); <br>
  }
 `
 ### October 26
