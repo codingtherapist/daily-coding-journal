@@ -1,14 +1,17 @@
 # My Daily Coding Journal
 
 An informal daily journal with coding activities, research, meetings, musings and more :) <br>
-<b>Part 1</b> of this series which details my first 2 months of learning how to code can be found [here](https://codingtherapy.hashnode.dev/what-i-learned-learning-how-to-code)
 
-<b>Part 2</b> of this series which details the middle 3-4 months can be found [here](https://codingtherapy.hashnode.dev/my-first-6-months-of-learning-web-development-part-2)
 
 ![Photo of author smile with the caption: learnign and buiklding using the MERN STACK Daily coding journal](https://res.cloudinary.com/dtamwfybo/image/upload/v1666889879/Why_I_left_Healthcare_21_vvigwd.png)
 
-<b>Note</b>: This blog post will also contain excerpts from my personal code journal which I started using with more frequency around June of 2022. These excerpts were not originally meant for public consumption and may have grammar errors. I want to preserve the entrees for what they were rather than edit them to perfection.
+<b>Note</b>: This repo will contain excerpts from my personal code journal which I started on January 29th 2022 and started using with more frequency around June of 2022. These excerpts were not originally meant for public consumption and may have grammar errors. I want to preserve the entrees for what they were rather than edit them to perfection.<br><br>
 
+This repo starts on May 28, 2022. If you'd like to read excerpts from earlier check out:
+
+- [ <b>Part 1</b> of this series which details my first 2 months of learning how to code](https://codingtherapy.hashnode.dev/what-i-learned-learning-how-to-code)
+
+- [ <b>Part 2</b> of this series which details the middle 3-4 months](https://codingtherapy.hashnode.dev/my-first-6-months-of-learning-web-development-part-2)
 
 ## Building in Public 
 ### Oct 27
