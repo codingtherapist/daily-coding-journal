@@ -34,13 +34,13 @@ We worked a on a problem that required us to take in a string (we chose the word
 
 The word "Baddie" should <b>return</b> "(())(("
 <br>
-` console.log(duplicateEncode(Baddies),"(())(((")`<br>
-<i> Rational:</i>
+` console.log(duplicateEncode(Baddies),"(())(((")`<br><br>
+<i> Rationale:</i>
 
-- To create a function that could break down the string “Baddie” and turn it into an array or letters, we used the slice() method. 
-- To make sure all of the letters were lowercase we used the method toLowerCase(). 
-- To check whether there were duplicates we used indexOf() to search the beginning of the arrays indexes for characters, and lastIndexOf() to check the end of the array. 
-- To place these methods on each letter of the array we created, we used map().
+- To create a function that could break down the string “Baddie” and turn it into an array or letters, we used the <b>slice()</b> method. 
+- To make sure all of the letters were lowercase we used the method <b>toLowerCase()</b>. 
+- To check whether there were duplicates we used indexOf() to search the beginning of the arrays indexes for characters, and <b>lastIndexOf()</b> to check the end of the array. 
+- To place these methods on each letter of the array we created, we used <b>map()</b>.
 - We knew if any of the characters came back with different indexes for indexOf() or lastIndexOf(), that must mean the characters were repeating, as if there was only one character type the indexes of both methods would be the same.<br><br>
 
 <b> Solution:</b><br>
@@ -65,10 +65,10 @@ Today:
 #### Interview questions
 What do you want an entry level person to know well?
 - Data structures
-- - Array Traversal 
-- - Find Nth Item 
-- - Removing item
-- - Shifting item
+ - Array Traversal 
+ - Find Nth Item 
+ - Removing item
+ - Shifting item
 
 - Linked list
 	- Iterating through a single list
