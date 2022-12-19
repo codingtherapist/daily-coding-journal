@@ -216,7 +216,7 @@ read/ write array/ splice it/ take thing out of it etc
 	- Not expected to know the most efficient route
 
 
-## Oct 30
+### Oct 30
 - Tutoring going over API call requests and mongoDB
 - Codewars!
 
