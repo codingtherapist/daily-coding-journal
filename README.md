@@ -695,7 +695,7 @@ Homework
 
 
 ## To be continued 
-Interested in seeing further than August? Click the links at the begining of this repo. Parts 1-3 are avaiable to read via blog articles documenting my first 6 months of learning to code.
+Interested in seeing further than August? Click the links at the begining of this repo. Parts 1-3 are available documenting my first 6 months of learning to code.
 
 	(This journal lives on a google document that I add to daily, I will be uploading the daily posts little by little as I have time :) )
 
