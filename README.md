@@ -13,7 +13,233 @@ This repo starts on May 28, 2022. If you'd like to read excerpts from earlier ch
 
 - [ <b>Part 2</b> of this series which details the middle 3-4 months](https://www.africakenyah.com/learning-to-code-part-2/)
 
+- [ <b>Part 3</b> of this series which details the next two months](https://www.africakenyah.com/learning-to-code-part-3/)
+
 ## Building in Public 
+
+### Nov 14
+Coding questions for studying with group:
+- What is scope / lexical scope in javascript? 
+	- Scope = area visible and accessible to other code
+	- Function scope is to access variables from parent scope
+	- Place in which item was created
+	- Lexical scope is where its defined, children have access to parents 
+	- So for example putting a vsariable inside of a function its a lexical scope
+	- Anothing outside of function is global scope
+	- Lexical scope is wherever you define the variable 
+	- Can be in function or be global
+- What is polymorphism?
+	- The practice of designing objects to share behaviors and takes advantage of inheritance
+	- Base, subbasses that inherit from car and then add their own
+	- Allows you to extend objects and add different methods
+	- Uses protoypal inheritance
+	- https://www.javatpoint.com/javascript-oops-polymorphism
+- Describe the difference between <script>, <script async> and <script defer>.
+	- <script> HTML parsing is blocked, script is fetched and executed immediately. 
+	- <script async> script fetched parallel to HTML parsing and executed as soon as possible <script defer> script fetched parallel to HTML parsing and executed only when page is finished parsing 
+	- Use: Use async when the script is independent of other scripts on the page Defer is useful when the HTML needs to be fully parsed before executing 
+	-Example: <script async> could be used for analytics scripts (independent of other scripts on page) <script defer> must not contain document.write
+- Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?
+	- Good idea to position CSS between head so it can run load and render before loading page. JS scripts just before body so it runs after the page is rendered
+	- CSS rendered before it gets to DOM so thats why
+	- Dom rendered from top down do javascript last so it wont render slowly, allows HTML to be parsed first
+	- Exceptions = jquery, only executes after document is read
+
+### Nov 10
+- 12pm Job interview for technical writing position (offer not extended)
+- Coding question studying
+- What is recursion and give an example using javascript?
+	- A function or algo that calls itself directly or indirectly
+	- Corresponding function is called a recursive function
+	- A recursive function must have a condition to stop calling itself. Otherwise, the function is called indefinitely.
+	- Recursion is an amazing technique with the help of which we can reduce the length of our code and make it easier to read and write.
+	- https://www.javascripttutorial.net/javascript-recursive-function/
+- What is an algorithm
+	- A set of instructions like a function
+- Why is nodeJS single threaded
+	- Nodejs is is asynchronous and has an event loop 
+	- Eliminates need to create more threads and reduces memory and resource uses
+	- Similar to javascript and inspired by the callback mechanism
+- Explain callback in Node.js
+	- Call when a task is complete and prevents blocking
+	- You can have other code run in the meantime
+	- Nodes can process a lot of requests without waiting for any function to return
+
+
+
+### Nov 9 
+Banki morning practice
+- What kind of things must you be wary of when design or developing for multilingual sites?
+	- You must be wary of design 
+	- Globalization, making sure you can serve it and some languages are written from right to left
+	- You have to worry about display and format
+	- Static graphics or images in a different language buttons
+- What are data attributes good for? 
+	- To add what kind of data your referencing
+	- Like building a calculator, adding more information to specific things in client side javascript
+	- Has custom data rather than CSS classes and event listeners for each
+	- Adds extra info to html that is more secure
+- Describe a float and how they work
+	- Floats float the text around the image and the image floats around the top left side corner and allows for text wrapping around image
+	- May need to use clear fix to fix the items below so it doesnt break the display of the page of the things that come after it
+- Describe the z index and how stacking context is formed
+	- Creating depth (think of the hair salon project) having names overlap their pictures
+	- Computer screen is flat, CSS gives you margins padding width and height 
+	- Z tries to come out the screen at you, with z index, 0 is flat, if you want it to come out you go up from zero so higher the z index, the closer it is to you, the lower the further away it is
+	
+- Explain why the following doesn't work as an IIFE(Immediately Invoked Function) Expression: function foo(){ }();. What needs to be changed to properly make it an IIFE?
+	- Use an IIFE when you want a function to immediately run without being called or needing a click for it to happen
+	- Basically you have to wrap the whole function in parentheses
+	- Design function known as self executing anonymous function which has two parts
+	- Anonymous function enclosed within the grouping operator ()
+	- Prevents accessing variable globally
+	- (function foo(){})()
+- What's the difference between a variable that is: null, undefined or undeclared? How would you go about checking for any of these states?
+	- Null: an intentional absence of a value (falsy)
+	- Undefined: means it has been declared but not given a value, theres space in memory  (falsy)
+	- Undeclared: variable that doesnt exist
+	- Console.log it and see what the answer 
+	- Conditional boolean check
+- What is the difference between classical inheritance and prototypal inheritance?
+	- Protoypal inheritance is built it and have objects with proto in them that can be used outside of the object
+	- Classical there needs to be some type of connection to inherit it, its more strict and needs to be explicitly
+- What are the pros and cons of functional programming vs object-oriented programming?
+	- Functional programming is simpler and just requires use of functions
+	- Functional programming makes it harder for many ppl to work on bc data is not encapsulated so you may mess it up by adding or changing things
+	- Function function, no way to nest things or hide things or protect them, no flexibility or security
+	- Mainly used for machine learning or big data in a matrix
+	- Object oriented everything is an object and it encapsulares data to make it easier to add to and work with with different people without messing up other parts of the program
+	- Oop is more complex and can get out of hand easier bc of so many different components
+	- Four pillars of OOP complexity is really important
+		- Abstraction
+		- Encapsulation
+		- Inheritance
+		- Polymorphism
+- What are the features of nodejs
+	- Single threaded
+	- Asynchronous
+	- Event driven
+	- Access to the file system and server
+	- Cross platform
+	- Run javascript without needing a browser
+	- Easily scalable
+	- Allows access access to package managers including npm
+	- Unopinionated
+	- Quick data streaming, minimal buffering
+- How do you update NPM to a new version in Node.js?
+	- Check version npm -v ,if new update npm update -g
+- What are “types” of data
+	- Tells computer how to use data
+	- Primitive (boolean, string, number, symbols, undefined, null etc)
+	- Compound (objects, arrays, lists, hashes, structures, pointers)
+- What are data structures
+	- Arrays, stacks, queues, linked lists, trees, graphs, heaps
+
+
+### Nov 8
+Study Questions
+- What does a doctype do
+	- Tells the browser which version of HTML the page is coded in, first line of document
+<html doctype=
+- How to save a page with multiple languages
+	- Putting it under doctype
+	- Language attribute lang= en
+- What is a CSS selector specificity and how does it work?
+ 	- Telling us which part of the HTML to apply the rules to
+	- Html tag has lowest specificity, classes can be a group of tags, ids have ever higher and can only have 1 !has highest and overrides them all
+- Difference between resetting and normalizing CSS
+	- Resetting gets rid of all margins and styling , normazlie makes it have a style that is standarzides throughout browsers
+- Prototypical inheritance
+	- Whatever the parent attributes are goers to the the function within
+	- All objects have a proto property, if youre trying to access a property in an object itll keep searching for them until it find it unti it gets to the javascript object
+	- Like a dog object with a bark property
+	- Dog object with a “bark” method (funtion), golden retriever object like goldenretriever.bark() itll look for the bark method in the other object
+	- Above is how you would call the method
+- What is is AMD and commonJS
+	- AMD is better for the browser because its Asychronous and doesnt just load one huge file
+	- CommonJS is sycnronous and used for servers
+	- Module loaders are libraries that can handle loading modules 
+- Can you name two programming opparadigms important for javascript
+	- OOP and functional programming
+	- Functional
+	- Simple function based programming
+	- OOP
+	- Prototypal inhereteance object based 
+	- Nodejs
+	- Its a  javascript runtime that can be used in any IDE and run javascript without using the browser
+	- Very fast since its built on chrome and v8 javascript engine
+	- Features of nodejs
+	- Fast, asynchronous, single threaded but highly scalable
+
+
+### Oct 31
+- Meeting with Mentor
+(These notes below are notes I took during out meeting and may not have the best grammer or flow)
+- Went over
+ 	- Method, arrays for loops,
+	- Basic data structures
+	- Lists, arrays, maps, json objects, map data types
+	- Stacks and queues
+	- Searching or iterating through a list, string parsing, parse string
+	- Binary search is for sorted lists and they can check value in middle and see if the thing youre looking for is greater or less than value
+	- Know differente between a list and set and when to use them
+- Map
+	- A collection of things and values and you look it up by a keys
+	- You can look up something with a value
+	- In memory theres a pointer to some thing
+	- Example
+		- Keeping track of certain number of stocks
+		- Write a function that takes in name of stock and give you back current price
+		- Function that updates the price for stock ticker
+		- Need all of it to happen in real time
+		- Function updates and reads the price
+		- JSON object with two fields, name of stock and price
+		- Put it in an array and find price
+
+- Trees and graphs for big tech
+- Insertion or sorting algos
+- "Do i need to sort this before i do anything or not?"
+	- Should know how to do basic things to manipulate array
+read/ write array/ splice it/ take thing out of it etc
+- Map is a list of pointers
+- Looking up a single value itll be better to map it and point it to a value
+- Hiring managers are looking at how you approach the problem
+	- Dont just start writing
+	- Ask questions
+- Edge cases
+	- Asking clarifying questions
+	- Making sure you think about what you want to do before you write code
+	- An outline of the code your going to write
+	- Asking questions a lot before you write things
+	- How you take feedback, throwing something extra in ther and how you deal with it
+	- All this is more important, can you solve a problem, can you adapt
+	- Not expected to know the most efficient route
+
+
+## Oct 30
+- Tutoring going over API call requests and mongoDB
+- Codewars!
+
+### Oct 29
+- Created Stretch app JSON objects
+- Make a simple API call request 
+- Build an independent API using nodejs server
+
+
+### Oct 28
+- Codewars
+- Banki with javascript methods 30 mins
+- OOP vs functional explanation
+- Film weekly update
+- Banki 3 questions
+- Ideas
+	- Walk through of stretch project
+	- Byte Sized Coding Lessons
+- OOP vs functional programming
+-String and array methods to know
+	- Map, reduce, etc
+
+
 ### Oct 27
  
 - 1 hour daily virtual standup completing 6kyu codewar 
@@ -22,6 +248,7 @@ This repo starts on May 28, 2022. If you'd like to read excerpts from earlier ch
 - Add blog entry on personal blog via vscode
 - NodeJS fundamentals review
 - Meeting with recruiter 3pm
+- 1 hr meeting with a Sr management consultant who works as a full stack developer for a tech company.
 
 Today I did the daily standup of codewars with my study group as usual, but with a little more focus and energy. <br><br>
 
